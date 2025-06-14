@@ -11,8 +11,8 @@ if (!fs.existsSync(DOWNLOADS_DIR)) {
     fs.mkdirSync(DOWNLOADS_DIR);
 }
 
-// Serve static files from public directory
-app.use(express.static('public'));
+// Serve static files from root directory
+app.use(express.static('.'));
 
 // API endpoint to get list of downloadable files
 app.get('/api/files', (req, res) => {
