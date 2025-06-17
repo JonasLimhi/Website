@@ -7,11 +7,11 @@ Client:     So Zibin
 --------------------------------------------------
 ITEM CODE     | PRODUCT NAME     | QUANTITY | PRICE
 --------------------------------------------------
-GH-042        | Marijuana     | 3 kg     | $240
+GH-042        | Marijuana     | 3 kg     | $24,000
 --------------------------------------------------
 Delivery Method: Pick-up (Location: Bishan MRT)
 Pickup Time:     14:00 (Window: 15 min)
-Handler:        Iman
+Handler:        Jonas
 --------------------------------------------------
 Thank you for your business!
 --------------------------------------------------
