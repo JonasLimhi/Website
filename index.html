@@ -41,47 +41,79 @@
         .download-link:hover {
             background: #0056b3;
         }
+        .preview-img {
+            max-width: 300px;
+            max-height: 200px;
+            display: block;
+            margin-bottom: 8px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        header img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #888;
+            font-size: 0.95rem;
+        }
     </style>
 </head>
-<body>    <div class="file-list" id="fileList">
-    <div class="file-item">
-        <div class="file-info">
-            <div class="file-name">instructions.txt</div>
-            <div class="file-details">
-                Click to download
+<body>
+    <div class="container">
+        <header>
+            <img src="https://cdn-icons-png.flaticon.com/512/833/833524.png" alt="Download Icon">
+            <h1>File Downloads</h1>
+            <p class="subtitle">Easily preview and download your files below.</p>
+        </header>
+        <div class="file-list" id="fileList">
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-name">instructions.txt</div>
+                    <div class="file-details">Click to download</div>
+                </div>
+                <a href="./files/instructions.txt" class="download-link" download>Download</a>
+            </div>
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-name">invoice.txt</div>
+                    <div class="file-details">Click to download</div>
+                </div>
+                <a href="./files/invoice.txt" class="download-link" download>Download</a>
+            </div>
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-name">image (1).jpg</div>
+                    <div class="file-details">
+                        <img src="./files/image (1).jpg" alt="image (1)" class="preview-img">
+                        Click to download
+                    </div>
+                </div>
+                <a href="./files/image (1).jpg" class="download-link" download>Download</a>
+            </div>
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-name">image (2).jpg</div>
+                    <div class="file-details">
+                        <img src="./files/image (2).jpg" alt="image (2)" class="preview-img">
+                        Click to download
+                    </div>
+                </div>
+                <a href="./files/image (2).jpg" class="download-link" download>Download</a>
             </div>
         </div>
-        <a href="./files/instructions.txt" class="download-link" download>Download</a>
+        <footer>
+            &copy; 2025 Your Name. All rights reserved.
+        </footer>
     </div>
-    <div class="file-item">
-        <div class="file-info">
-            <div class="file-name">invoice.txt</div>
-            <div class="file-details">
-                Click to download
-            </div>
-        </div>
-        <a href="./files/invoice.txt" class="download-link" download>Download</a>
-    </div>
-    <div class="file-item">
-        <div class="file-info">
-            <div class="file-name">image (1).jpg</div>
-            <div class="file-details">
-                <img src="./files/image (1).jpg" alt="image (1)" style="max-width:150px;max-height:100px;display:block;margin-bottom:8px;">
-                Click to download
-            </div>
-        </div>
-        <a href="./files/image (1).jpg" class="download-link" download>Download</a>
-    </div>
-    <div class="file-item">
-        <div class="file-info">
-            <div class="file-name">image (2).jpg</div>
-            <div class="file-details">
-                <img src="./files/image (2).jpg" alt="image (2)" style="max-width:150px;max-height:100px;display:block;margin-bottom:8px;">
-                Click to download
-            </div>
-        </div>
-        <a href="./files/image (2).jpg" class="download-link" download>Download</a>
-    </div>
-</div>
 </body>
 </html>

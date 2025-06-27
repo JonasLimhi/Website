@@ -26,6 +26,12 @@ h1 {
     text-align: center;
 }
 
+.subtitle {
+    color: #555;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+}
+
 .file-list {
     display: flex;
     flex-direction: column;
@@ -60,6 +66,16 @@ h1 {
     color: #6c757d;
 }
 
+.preview-img {
+    display: block;
+    margin: 0.5rem 0 0.5rem 0;
+    max-width: 220px;
+    max-height: 140px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    border: 1px solid #e0e0e0;
+}
+
 .download-link {
     padding: 0.5rem 1rem;
     background-color: #007bff;
@@ -86,4 +102,12 @@ h1 {
     background-color: #f8d7da;
     border-radius: 4px;
     margin-top: 1rem;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+    color: #888;
+    font-size: 0.95rem;
 }
